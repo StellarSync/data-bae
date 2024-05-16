@@ -21,25 +21,20 @@ def take_order(drinks, pastries):
         choice = input("Enter 'd' to order drinks, 'p' for pastries, 'v' to view order, 'r' to remove items, 'q' to quit: ").lower()
 
         if choice == 'd':
-            # Implement logic to add drinks to the order (consider size, customizations)
             pass
-        elif choice == 'p':
-            # Implement logic to add pastries to the order (consider quantity)
+        elif choice == 'p': 
             pass
         elif choice == 'v':
-            # Display the current order details (name, size, price, quantity, customizations)
             pass
         elif choice == 'r':
-            # Implement logic to remove items from the order
             pass
         elif choice == 'q':
             break
         else:
             print("Invalid input. Please enter a valid option.")
-
-    # Calculate the total order cost
+ 
     total_cost = 0
-    # Implement logic to iterate through the order and calculate total cost
+    
 
     print(f"\nYour order total is: ${total_cost:.2f}")
 
