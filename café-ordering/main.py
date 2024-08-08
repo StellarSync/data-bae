@@ -40,7 +40,7 @@ def take_order(drinks, pastries):
 
 def main():
     """The main entry point of the program."""
-       drinks = [
+    drinks = [
         {"name": "Coffee", "size": "Small", "price": 1.50},
         {"name": "Coffee", "size": "Medium", "price": 2.00},
         {"name": "Coffee", "size": "Large", "price": 2.50},
